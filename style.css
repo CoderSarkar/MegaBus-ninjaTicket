@@ -9,7 +9,7 @@ body{
     font-family: 'Roboto', sans-serif;
     background:url("images/bus.png");
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: top center;
     background-attachment: scroll;
     background-size: cover;
 }
@@ -99,11 +99,12 @@ nav ul li a:hover, a.active{
     justify-content: space-between;
     align-items: center;
 }
+
 .inp-width{
     min-width: 100px;
 }
 .plus-minus-btn{
-    color:tomato;
+    color: wheat;
     font-size: 30px;
     font-weight: 800;
     padding: 2px;
@@ -126,4 +127,18 @@ nav ul li a:hover, a.active{
 .amount{
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
+}
+#purchase-information{
+    padding: 20px;
+    background-color: rgba(12, 125, 145, 0.727);
+    display: none;
+    color: white;
+    width: 70%;
+    margin-top: 200px;
+    margin-left: 200px;
+    
+    border-radius: 5px;
+    box-shadow:  10px 20px 45px rgb(51, 126, 106);
+
 }
